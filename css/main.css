@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,600&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+.hero-bg {
+  background: #ffffff url("../images/bg.jpg");
+  color: white;
+  text-align: center;
+  padding-bottom: 4em;
+}
+
+header {
+  padding: 3em 3em 5em 3em;
+}
+.hero-bg a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+section {
+  margin: 0 1em;
+}
+
+h1 {
+  font-size: 4.5rem;
+  margin: 2em 0 1.2em;
+}
+h1 span {
+  text-transform: uppercase;
+  display: block;
+  background: tomato;
+  display: inline;
+  padding: 0 2rem;
+  font-size: 5.4rem;
+  position: relative;
+  z-index: 1;
+}
+.top p {
+  background-color: black;
+  color: #ffffff;
+  padding: 1em;
+  font-style: italic;
+}
+}
+label {
+  display: block;
+  padding-bottom: 5px;
+  font-weight: bold;
+  
+}
+.button-join {
+  background-color: tomato;
+  padding: 1em 2em 1em;
+  margin-top: 1em;
+  color: #000000;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+.hero-bg p {
+  font-weight: bold;
+  margin: 0 1em 3em;
+  font-size: 1.5rem;
+}
+
+.form-container {
+  background-color: azure;
+  margin: 2em 5em;
+  color: black;
+  padding: 2em;
+  border-radius: 1em;
+}
+input[type="text"] {
+  border: 1px solid rgb(61, 35, 31);
+  width: 60%;
+  border-radius: 1em;
+  margin-top: 1.2em;
+  padding: 2em;
+}
